@@ -12,6 +12,10 @@ a{
 	text-decoration:none;
 }
 
+p{
+	font-family: 'Roboto', sans-serif;
+ }
+
 #main{
 	padding:30px 50px;
 	position:relative;
@@ -212,13 +216,14 @@ nav{
 .read-less{
 	color : #3b5998;
 	cursor : pointer;
+	font-family: 'Roboto', sans-serif;
 }
 
 #services{
 		width:100%;
 	height:100vh;
 	box-sizing: border-box;
-	font-family: calibri;
+	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -285,7 +290,7 @@ nav{
 	margin: 0px;
 	color:#FFFFFF;
 	font-size: 1.1rem;
-	font-family: calibri;
+	font-family: 'Roboto', sans-serif;
 	/* display: block; */
     /* display: -webkit-box; */
 	max-width: 80%;
@@ -495,7 +500,7 @@ width: 100%;
 .f-name,.f-email{
 	display: flex;
 	flex-direction: column;
-	font-family: calibri;
+	font-family: 'Roboto', sans-serif;
 	
 }
 .f-name font,.f-email font{
