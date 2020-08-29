@@ -210,7 +210,7 @@ nav{
 }
 
 .read-less{
-	color : red;
+	color : #3b5998;
 	cursor : pointer;
 }
 
@@ -851,4 +851,41 @@ footer{
 	.s-b-text p{
 		font-size: 15px;
 	}
+}
+
+@media(max-width:360px){
+	#about
+		{
+			padding: 300px 5% 250px 5%;
+		}
+
+	.about-text p{
+		font-size: 17px;
+	}
+
+	.about-text h1{
+		font-size: 40px;
+	}
+
+	.about-text h2{
+		font-size: 20px;
+	}
+
+	.s-heading h1,
+	.p-headind{
+		font-size: 40px;
+	}
+
+	.TIL{
+		font-size: 25px;
+	}
+
+	.copyright p{
+		font-size: 0.9rem;
+	}
+
+	.up-i{
+		font-size: 0.4rem;
+	}
+
 }
